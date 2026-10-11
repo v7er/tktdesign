@@ -1,0 +1,18 @@
+{
+  "name": "tktdesign-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-11",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tktdesign",
+      "database_id": "56705655-0c74-4cd0-8f3e-35500afddb13",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

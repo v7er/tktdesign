@@ -1,0 +1,15 @@
+{
+	"name": "tktdesign",
+	"private": true,
+	"scripts": {
+		"dev": "pnpm run --parallel --filter api --filter web dev",
+		"dev:web": "pnpm --filter web dev",
+		"dev:api": "pnpm --filter api dev",
+		"build": "pnpm --filter api build && pnpm --filter web build",
+		"test": "pnpm --filter api test && pnpm --filter web test",
+		"deploy": "pnpm --filter api deploy && pnpm --filter web deploy",
+		"db:migrate:local": "pnpm --filter api db:migrate:local",
+		"db:migrate:remote": "pnpm --filter api db:migrate:remote"
+	},
+	"packageManager": "pnpm@10.15.0"
+}

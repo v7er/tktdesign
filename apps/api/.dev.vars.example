@@ -1,0 +1,2 @@
+ADMIN_SECRET=thay-bang-chuoi-bi-mat
+ADMIN_SECRET_HASH=pbkdf2$100000$salt$hash
