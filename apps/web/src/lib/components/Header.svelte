@@ -3,6 +3,7 @@
 	import IconX from '@tabler/icons-svelte-runes/icons/x';
 	import { page } from '$app/state';
 	import { nav, site } from '#lib/site';
+  import logo from '#lib/assets/logo.png';
 
 	let open = $state(false);
 
@@ -15,8 +16,8 @@
 <header class="site-header">
 	<div class="wrap header-inner">
 		<a class="logo" href="/" onclick={() => (open = false)}>
-			<strong>{site.name}</strong>
-			<span>Kiến trúc · Xây dựng</span>
+      <img src={logo} width="58" height="58" alt={site.name} />
+			<span>Tư vấn · Thiết kế · Xây dựng</span>
 		</a>
 		<button
 			class="menu-btn"

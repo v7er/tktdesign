@@ -76,7 +76,8 @@ p {
 
 .logo {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+  align-items: center;
 	gap: 0;
 	line-height: 1.05;
 }
@@ -88,7 +89,7 @@ p {
 }
 
 .logo span {
-	font-size: 0.72rem;
+	font-size: 0.85rem;
 	font-weight: 500;
 	color: var(--muted);
 }
